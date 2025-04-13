@@ -1,6 +1,7 @@
 const Config = {
     //Connection_params
-    ROSBRIDGE_SERVER_IP: "192.168.0.34",
+    ROSBRIDGE_SERVER_IP: "10.192.106.63",
+    // ROSBRIDGE_SERVER_IP: "192.168.0.34",
     ROSBRIDGE_SERVER_PORT: "9090",
     RECONNECTION_TIMER: 5000,
 

@@ -63,8 +63,8 @@ class Teleoperation extends Component {
 
         // create a twist message to be to published to rosbridge
         var twist = new window.ROSLIB.Message({
-            linear: {x: event.y / 50, y: 0, z: 0},
-            angular: {x: 0, y: 0, z: -event.x / 50},
+            linear: {x: event.y / 1, y: 0, z: 0},
+            angular: {x: 0, y: 0, z: -event.x / 1},
         });
 
         cmd_vel.publish(twist);
