@@ -55,7 +55,7 @@ The following structure shows the organization of files and folders in the proje
 
 ```bash
 react-ros2-robot/
-├── node_modules/
+├── node_modules/   # automatically created by 'npm install'
 ├── public/
 │   ├── index.html
 │   ├── js/
@@ -120,7 +120,7 @@ The following dependencies are required to run the application. Some of them are
 
     - install the project dependencies:
         ```bash
-            npm install
+        npm install
         ```
 
 ## LICENSE
