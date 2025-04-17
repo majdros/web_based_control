@@ -14,7 +14,7 @@ This project enables real-time control and monitoring of robots through a simple
   <em>web_based_control_Demo</em>
 </p>
 
-<p align="center"
+<p align="center">
 ![ROS2 Topic Graph](/public/images/rosgraph.png)
 </p>
 
