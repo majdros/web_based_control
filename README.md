@@ -15,7 +15,7 @@ This project enables real-time control and monitoring of robots through a simple
 </p>
 
 <p align="center">
-![ROS2 Topic Graph](/public/images/rosgraph.png)
+    <img src="public/images/rosgraph.png"
 </p>
 
 ## Usage
