@@ -8,7 +8,15 @@ This project enables real-time control and monitoring of robots through a simple
 - **Camera Stream**: Displays a live camera stream from the robot.
 - **Robot State Monitoring**: Monitors linear and angular velocity.
 
+<p align="center">
+  <img src="public/images/web_Demo.gif" >
+
+  <em>web_based_control_Demo</em>
+</p>
+
+<p align="center"
 ![ROS2 Topic Graph](/public/images/rosgraph.png)
+</p>
 
 ## Usage
 This section describes how to start and configure the application
@@ -64,6 +72,8 @@ react-ros2-robot/
 │   │   └── ros2d.js
 │   └── images/
 │       ├── circo.png
+│       ├── rosgraph.png
+│       ├── web_Demo.gif
 │       └── mobile-robot-autonomous.png
 ├── src/
 │   ├── components/
@@ -99,7 +109,7 @@ This section provides an overview of the main components of the application and 
 
 3. **RobotState**
 - Displays the linear and angular velocity.
-- Subscribes to the Odometry message `nav_msgs/Odometry` from the `odometrdy/filtered` topic.
+- Subscribes to the Odometry message `nav_msgs/Odometry` from the `odometry/filtered` topic (EKF output).
 
 4. **Camera**
 - Displays the live camera stream from the robot.
